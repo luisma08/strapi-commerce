@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "about-us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    },
+    "mision": {
+      "type": "text"
+    },
+    "vision": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "info_2": {
+      "type": "text"
+    },
+    "info_3": {
+      "type": "text"
+    },
+    "info_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
